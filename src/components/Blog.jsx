@@ -5,7 +5,7 @@ const Blog = () => {
         <div className="mb-5">
             <h1 className='text-center text-4xl font-bold mb-10 p-10 bg-[#F4F4F4]'>Blogs</h1>
             <div>
-                <h1 className="text-center text-4xl font-bold ">Frequently Common <span className="color-gradient">Questions</span></h1>
+                <h1 className="text-center text-4xl font-bold ">Some Interview <span className="color-gradient">Questions</span></h1>
             </div>
             <div className="my-5 py-2 px-4 md:p-8 rounded-lg bg-[#1111110D]">
                 <div className="bg-white rounded-lg p-4 my-2">

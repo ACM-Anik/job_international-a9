@@ -1,8 +1,9 @@
 import React from 'react';
 import { CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
-const FeaturedJobs = ({ singleFeaturedJob }) => {
-    const { company_logo, title, company_name, placement, duty, salary, location } = singleFeaturedJob;
+const FeaturedJobs = ({ singleFeaturedJob, handleToShowDetails}) => {
+    const { company_logo, title, company_name, placement, duty, salary, location, id} = singleFeaturedJob;
     return (
         <div className='border shadow rounded p-8'>
             <img src={company_logo} alt="company-logo" />
@@ -25,7 +26,9 @@ const FeaturedJobs = ({ singleFeaturedJob }) => {
                     <h5> Salary: {salary}</h5>
                 </div>
             </div>
-            <button className='btn bg-color-gradient mt-4 '>View Details</button>
+            <Link to="/jobDetails">
+                <button onClick={() => handleToShowDetails(id)} className='btn bg-color-gradient mt-4 '>View Details</button>
+            </Link>
         </div>
     );
 };
