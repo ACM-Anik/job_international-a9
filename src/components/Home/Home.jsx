@@ -1,6 +1,6 @@
 import React, { useContext} from 'react';
 import { FeaturedJobsContext } from '../../App';
-import FeaturedJobs from '../FeaturedJobs';
+import FeaturedJobs from './FeaturedJobs';
 import Cover from './Cover';
 import JobCategory from './JobCategory';
 
