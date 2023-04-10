@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { FeaturedJobsContext } from '../App';
+import FeaturedJobs from './FeaturedJobs';
+
 
 const Home = () => {
     const jobCategoryList = useLoaderData();
-    console.log(jobCategoryList);
+    const featuredJobs = useContext(FeaturedJobsContext);
+
 
     return (
         <>
+
+            {/* Cover Section */}
+
             <div className='bg-[#F4F4F4] pt-4 px-3'>
                 <div className='md:flex justify-center items-center gap-6 container mx-auto pt-8'>
                     <div className=''>
@@ -19,6 +26,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Job Category List Section */}
+
             <section className='my-32 container mx-auto'>
                 <div className='text-center my-8'>
                     <h1 className='text-5xl font-bold my-5'>Job Category List</h1>
@@ -38,12 +48,27 @@ const Home = () => {
                     }
                 </div>
             </section>
+
+            {/* Featured Jobs Section */}
+
             <section className='my-32 container mx-auto'>
                 <div className='text-center my-8'>
                     <h1 className='text-5xl font-bold my-5'>Featured Jobs</h1>
                     <p className='color-gray font-medium'>Explore Featured jobs section to build your future with thousands of job opportunities</p>
                 </div>
-                
+                <div className='grid md:grid-cols-2 gap-6 mx-3 md:mx-0'>
+                    {
+                        featuredJobs.map(singleFeaturedJob =>
+                            <FeaturedJobs
+                                key={singleFeaturedJob.id}
+                                singleFeaturedJob={singleFeaturedJob}
+                            ></FeaturedJobs>
+                        )
+                    }
+                </div>
+                <div className='text-center my-4'>
+                    <button className='btn bg-color-gradient my-8'>Show All Jobs</button>
+                </div>
             </section>
         </>
     );
