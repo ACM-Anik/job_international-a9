@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "company_logo": "",
+        "title": "Software Engineer",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "United States",
+        "duty": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are seeking a highly skilled software engineer to join our team.",
+        "job_responsibility": "Design and develop software solutions to meet business requirements.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field.",
+        "experiences": "At least 5 years of experience in software development.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://example.com/images/company2-logo.png",
+        "title": "Marketing Manager",
+        "company_name": "ABC Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "duty": "Full-time",
+        "salary": "$110,000 - $140,000",
+        "job_description": "We are seeking an experienced marketing manager to oversee our marketing department.",
+        "job_responsibility": "Develop and execute marketing strategies to promote our products and services.",
+        "educational_requirements": "Bachelor's or Master's degree in Marketing or a related field.",
+        "experiences": "At least 7 years of experience in marketing management.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://example.com/images/company3-logo.png",
+        "title": "Graphic Designer",
+        "company_name": "XYZ Co.",
+        "remote_or_onsite": "Remote",
+        "location": "Canada",
+        "duty": "Part-time",
+        "salary": "$50,000 - $60,000",
+        "job_description": "We are seeking a creative graphic designer to join our team.",
+        "job_responsibility": "Create visual designs for a variety of mediums, including print, web, and social media.",
+        "educational_requirements": "Bachelor's or Master's degree in Graphic Design or a related field.",
+        "experiences": "At least 3 years of experience in graphic design.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://example.com/images/company4-logo.png",
+        "title": "Financial Analyst",
+        "company_name": "Finance Firm",
+        "remote_or_onsite": "Onsite",
+        "location": "London, UK",
+        "duty": "Full-time",
+        "salary": "£50,000 - £70,000",
+        "job_description": "We are seeking a talented financial analyst to join our team.",
+        "job_responsibility": "Analyze financial data and create reports to help make informed business decisions.",
+        "educational_requirements": "Bachelor's or Master's degree in Finance.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://example.com/images/company5-logo.png",
+        "title": "Customer Service Representative",
+        "company_name": "Service Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "duty": "Full-time",
+        "salary": "$40,000 - $50,000",
+        "job_description": "We are seeking a friendly and empathetic customer service representative to join our team.",
+        "job_responsibility": "Respond to customer inquiries and resolve issues in a timely and professional manner.",
+        "educational_requirements": "High school diploma or equivalent.",
+        "experiences": "At least 1 year of experience in customer service.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://example.com/images/company6-logo.png",
+        "title": "Human Resources Manager",
+        "company_name": "HR Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "duty": "Full-time",
+        "salary": "$90,000 - $120,000",
+        "job_description": "We are seeking an experienced human resources manager to oversee our HR department.",
+        "job_responsibility": "Develop and implement HR strategies to attract and retain top talent.",
+        "educational_requirements": "Bachelor's or Master's degree in Human Resources or a related field.",
+        "experiences": "At least 7 years of experience in human resources management.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 7,
+        "company_logo": "https://example.com/images/company7-logo.png",
+        "title": "Sales Associate",
+        "company_name": "Sales Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "duty": "Part-time",
+        "salary": "$15 - $20 per hour",
+        "job_description": "We are seeking a motivated sales associate to join our team.",
+        "job_responsibility": "Assist customers with their purchases and meet sales targets.",
+        "educational_requirements": "High school diploma or equivalent.",
+        "experiences": "At least 1 year of experience in retail sales.",
+        "contact_information": {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@example.com"
+        }
+    }
+]
