@@ -2,7 +2,7 @@ import React from 'react';
 import { CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 
-const FeaturedJobs = ({ singleFeaturedJob, handleToShowDetails}) => {
+const FeaturedJobs = ({singleFeaturedJob}) => {
     const { company_logo, title, company_name, placement, duty, salary, location, id} = singleFeaturedJob;
     return (
         <div className='border shadow rounded p-8'>
@@ -26,8 +26,8 @@ const FeaturedJobs = ({ singleFeaturedJob, handleToShowDetails}) => {
                     <h5> Salary: {salary}</h5>
                 </div>
             </div>
-            <Link to="/jobDetails">
-                <button onClick={() => handleToShowDetails(id)} className='btn bg-color-gradient mt-4 '>View Details</button>
+            <Link to={`../jobDetails/${id}`}>
+                <button className='btn bg-color-gradient mt-4 '>View Details</button>
             </Link>
         </div>
     );

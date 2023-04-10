@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext} from 'react';
 import { FeaturedJobsContext } from '../../App';
 import FeaturedJobs from '../FeaturedJobs';
 import Cover from './Cover';
@@ -8,18 +8,6 @@ import JobCategory from './JobCategory';
 const Home = () => {
    
     const featuredJobs = useContext(FeaturedJobsContext);
-    const [featuredJobsData, setFeaturedJobsData] = useState();
-
-    const handleToShowDetails = (id) => {
-        const selectedJob = [];
-
-        const exists = featuredJobs.find(singleData => singleData.id === id);
-        if(exists){
-            selectedJob.push(exists);
-        }
-        setFeaturedJobsData(selectedJob);
-    }
-
 
     return (
         <>
@@ -41,7 +29,6 @@ const Home = () => {
                             <FeaturedJobs
                                 key={singleFeaturedJob.id}
                                 singleFeaturedJob={singleFeaturedJob}
-                                handleToShowDetails={handleToShowDetails}
                             ></FeaturedJobs>
                         )
                     }

@@ -11,7 +11,7 @@ function App() {
   const [featuredJobsData, setFeaturedJobsData] = useState([]);
 
   useEffect(() => {
-    fetch('featured-jobs.json')
+    fetch('../public/featured-jobs.json')
       .then(res => res.json())
       .then(data => setFeaturedJobsData(data))
   }, [])
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <FeaturedJobsContext.Provider value={featuredJobsData}>
         <Header></Header>
-        <Outlet></Outlet>
+        <Outlet ></Outlet>
       </FeaturedJobsContext.Provider>
     </div>
   )

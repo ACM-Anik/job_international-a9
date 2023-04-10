@@ -8,13 +8,14 @@
         "location": "United States",
         "duty": "Full-time",
         "salary": "$120,000 - $150,000",
-        "job_description": "We are seeking a highly skilled software engineer to join our team.",
-        "job_responsibility": "Design and develop software solutions to meet business requirements.",
+        "job_description": "We are seeking a creative and detail-oriented graphic designer to join our team. The ideal candidate should be proficient in Adobe Creative Suite, have a strong understanding of design principles, and be able to work independently and collaboratively to create compelling visual materials for a variety of projects. This is a part-time position with flexible hours and the opportunity for growth within the company.",
+        "job_responsibility": "Design and produce high-quality visual materials for digital and print media, including logos, websites, social media graphics, and marketing materials. Collaborate with the marketing team to develop and execute creative campaigns. Ensure that all designs adhere to brand guidelines and are visually consistent across all channels. Stay up-to-date with industry trends and best practices to ensure that our designs are cutting-edge and effective.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field.",
         "experiences": "At least 5 years of experience in software development.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+2 (555) 123-4567",
+            "email": "johndoe1234@example.com",
+            "address": "25 Park Ave, London, UK"
         }
     },
     {
@@ -23,16 +24,17 @@
         "title": "Marketing Manager",
         "company_name": "AirBNB",
         "placement": "Onsite",
-        "location": "New York, NY",
+        "location": "Paris, France",
         "duty": "Full-time",
         "salary": "$110,000 - $140,000",
-        "job_description": "We are seeking an experienced marketing manager to oversee our marketing department.",
-        "job_responsibility": "Develop and execute marketing strategies to promote our products and services.",
+        "job_description":"We are seeking an experienced software engineer to join our team and help develop innovative solutions for our clients. The ideal candidate should have a strong background in software development and be familiar with modern development practices, tools, and technologies.",
+        "job_responsibility": "Design and develop high-quality software solutions using a variety of programming languages and frameworks. Collaborate with cross-functional teams to identify and solve complex problems. Write clean, maintainable, and well-documented code. Participate in code reviews and provide constructive feedback to team members. Stay up-to-date with emerging trends and technologies in software development.",
         "educational_requirements": "Bachelor's or Master's degree in Marketing or a related field.",
         "experiences": "At least 7 years of experience in marketing management.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+3 (555) 123-4567",
+            "email": "jane.doe5678@example.com",
+            "address": "10 Rue de la Paix, Paris, France"
         }
     },
     {
@@ -44,13 +46,14 @@
         "location": "Canada",
         "duty": "Part-time",
         "salary": "$50,000 - $60,000",
-        "job_description": "We are seeking a creative graphic designer to join our team.",
-        "job_responsibility": "Create visual designs for a variety of mediums, including print, web, and social media.",
+        "job_description": "We are seeking a talented marketing manager to develop and execute marketing strategies for our clients. The ideal candidate should have a strong background in marketing and be familiar with a variety of marketing channels and tactics.",
+        "job_responsibility": "Develop and execute marketing strategies that drive customer acquisition, retention, and growth. Collaborate with cross-functional teams to develop marketing campaigns that align with business objectives. Measure and analyze the effectiveness of marketing campaigns and make data-driven decisions to optimize performance. Stay up-to-date with emerging trends and technologies in marketing.",
         "educational_requirements": "Bachelor's or Master's degree in Graphic Design or a related field.",
         "experiences": "At least 3 years of experience in graphic design.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+4 (555) 123-4567",
+            "email": "marksmith9012@example.com",
+            "address": "77 Queen's Rd, Hong Kong"
         }
     },
     {
@@ -62,12 +65,14 @@
         "location": "Osaka, Japan",
         "duty": "Full-time",
         "salary": "$50,000 - $70,000",
-        "job_description": "We are seeking a talented financial analyst to join our team.",
-        "job_responsibility": "Analyze financial data and create reports to help make informed business decisions.",
-        "educational_requirements": "Bachelor's or Master's degree in Finance.",
+        "job_description": "We are seeking a data analyst to help us collect, analyze, and interpret large datasets to inform business decisions. The ideal candidate should have a strong background in statistics, data analysis, and data visualization.",
+        "job_responsibility": "Respond to customer inquiries via phone, email, and chat. Provide excellent customer service and help resolve issues in a timely and professional manner. Document customer interactions and follow up on any unresolved issues. Assist with other tasks as needed.",
+        "educational_requirements": "Bachelor's or Master's degree in data Visualization.",
+        "experiences": "At least 1.5 year of experience in customer service.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+5 (555) 123-4567",
+            "email": "stephanie.brown3456@example.com",
+            "address": "1-1-1 Shibuya, Osaka, Japan"
         }
     },
     {
@@ -79,13 +84,14 @@
         "location": "Tokyo, Japan",
         "duty": "Part-time",
         "salary": "$40,000 - $50,000",
-        "job_description": "We are seeking a friendly and empathetic customer service representative to join our team.",
-        "job_responsibility": "Respond to customer inquiries and resolve issues in a timely and professional manner.",
+        "job_description":  "We are seeking a marketing specialist to join our team. The ideal candidate should have experience in digital marketing, be highly organized, and have excellent communication skills. This is a full-time position with competitive salary and benefits.",
+        "job_responsibility": "Develop and implement digital marketing campaigns across various channels, including email, social media, and search engines. Analyze campaign performance and adjust strategies as needed to meet goals. Collaborate with cross-functional teams to ensure that marketing efforts align with business objectives. Stay up-to-date with industry trends and best practices to ensure that our marketing strategies are cutting-edge and effective.",
         "educational_requirements": "High school diploma or equivalent.",
         "experiences": "At least 1 year of experience in customer service.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+6 (555) 123-4567",
+            "email": "jason.nguyen7890@example.com",
+            "address": "1-1-1 Shibuya, Tokyo, Japan"
         }
     },
     {
@@ -97,13 +103,14 @@
         "location": "San Francisco, CA",
         "duty": "Full-time",
         "salary": "$90,000 - $120,000",
-        "job_description": "We are seeking an experienced human resources manager to oversee our HR department.",
-        "job_responsibility": "Develop and implement HR strategies to attract and retain top talent.",
+        "job_description": "We are seeking a software developer to join our team. The ideal candidate should have experience in Java, Python, or C++, and be able to work independently and collaboratively to develop high-quality software products. This is a full-time position with competitive salary and benefits.",
+        "job_responsibility": "Design, develop, and test software applications and systems. Collaborate with cross-functional teams to ensure that software products meet business objectives and user needs. Troubleshoot and debug issues as they arise. Stay up-to-date with industry trends and best practices to ensure that our software products are cutting-edge and effective.",
         "educational_requirements": "Bachelor's or Master's degree in Human Resources or a related field.",
         "experiences": "At least 7 years of experience in human resources management.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+7 (555) 123-4567",
+            "email": "sarahwilson2345@example.com",
+            "address": "48 Market St, Sydney, Australia"
         }
     },
     {
@@ -115,13 +122,14 @@
         "location": "Chicago, IL",
         "duty": "Full-time",
         "salary": "$15 - $20 per hour",
-        "job_description": "We are seeking a motivated sales associate to join our team.",
-        "job_responsibility": "Assist customers with their purchases and meet sales targets.",
+        "job_description": "We are seeking a human resources coordinator to join our team. The ideal candidate should have experience in HR, be highly organized, and have excellent communication skills. This is a full-time position with competitive salary and benefits.",
+        "job_responsibility": "Assist with recruitment and hiring processes, including posting job openings, reviewing resumes, and scheduling interviews. Coordinate employee onboarding and off boarding processes. Manage employee files and documentation. Provide support to HR team as needed.",
         "educational_requirements": "High school diploma or equivalent.",
         "experiences": "At least 1 year of experience in retail sales.",
         "contact_information": {
-            "phone": "+1 (555) 123-4567",
-            "email": "jobs@example.com"
+            "phone": "+8 (555) 123-4567",
+            "email": "peterjackson6789@example.com",
+            "address": "15 Piazza Navona, Rome, Italy"
         }
     },
     {
@@ -133,13 +141,14 @@
         "location": "United States",
         "duty": "Part-time",
         "salary": "$25 - $30 per hour",
-        "job_description": "We are seeking a creative and detail-oriented graphic designer to join our team.",
-        "job_responsibility": "Design and produce high-quality visual materials for digital and print media.",
+        "job_description": "We are seeking a content writer to join our team. The ideal candidate should be able to write clear, concise, and engaging content across various platforms and formats. This is a part-time position with flexible hours and the opportunity for growth within the company.",
+        "job_responsibility": "Write and edit content for website, blog, social media, and other platforms. Collaborate with marketing team to develop and execute content marketing strategies. Stay up-to-date with industry trends and best practices to ensure that our content is cutting-edge and effective.",
         "educational_requirements": "Bachelor's or Associate's degree in Graphic Design or a related field.",
         "experiences": "At least 2 years of experience in graphic design.",
         "contact_information": {
-          "phone": "+1 (555) 123-4567",
-          "email": "jobs@example.com"
+          "phone": "+9 (555) 123-2267",
+          "email": "emilyjones1234@example.com",
+          "address": "123 Main St, California, USA"
         }
       }
 ]
