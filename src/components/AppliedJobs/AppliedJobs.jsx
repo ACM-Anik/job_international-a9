@@ -22,7 +22,17 @@ const AppliedJobs = () => {
         setStoredJobs(savedAppliedJobs);
     }, [featuredJobs]);
 
-    
+
+
+    // Handle to Filter By:--
+    const [selectedOption, setSelectedOption] = useState(false);
+
+    const handleToFilter = (option) => {
+        
+    }
+
+
+
 
     return (
         <div className="mb-5">
@@ -31,19 +41,27 @@ const AppliedJobs = () => {
             </h1>
             <div className='container mx-auto'>
                 <div className="dropdown dropdown-top dropdown-end flex justify-end my-4">
-                    <label tabIndex={0} className="btn btn-sm bg-color-gradient m-1">Click</label>
+                    <label tabIndex={0} className="btn btn-sm bg-color-gradient m-1">Filter By</label>
                     <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Remote</a></li>
-                        <li><a>Onsite</a></li>
+                        <li ><a onClick={()=> handleToFilter('all')}>All Jobs</a></li>
+                        <li ><a onClick={()=> handleToFilter('remote')}>Remote</a></li>
+                        <li ><a onClick={()=> handleToFilter('onsite')}>Onsite</a></li>
                     </ul>
                 </div>
                 <div className='flex flex-col gap-8'>
                     {
-                        storedJobs.map(singleStoredJobs => 
-                        <SingleAppliedJobs 
-                            singleStoredJobs={singleStoredJobs}
-                            key={singleStoredJobs.id}
-                        ></SingleAppliedJobs>)
+                        selectedOption ?
+                            filterData.map(singleStoredData =>
+                                <SingleAppliedJobs
+                                    singleStoredJobs={singleStoredJobs}
+                                    key={singleStoredJobs.id}
+                                ></SingleAppliedJobs>)
+                            :
+                            storedJobs.map(singleStoredJobs =>
+                                <SingleAppliedJobs
+                                    singleStoredJobs={singleStoredJobs}
+                                    key={singleStoredJobs.id}
+                                ></SingleAppliedJobs>)
                     }
                 </div>
             </div>
