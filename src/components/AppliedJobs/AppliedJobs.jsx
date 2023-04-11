@@ -6,7 +6,6 @@ import SingleAppliedJobs from './SingleAppliedJobs';
 
 const AppliedJobs = () => {
     const featuredJobs = useContext(FeaturedJobsContext);
-
     const [storedJobs, setStoredJobs] = useState([]);
 
     useEffect(() => {
@@ -26,11 +25,17 @@ const AppliedJobs = () => {
 
     // Handle to Filter By:--
     const [selectedOption, setSelectedOption] = useState(false);
+    const [filteredJobs, setFilteredJobs] = useState([])
 
     const handleToFilter = (option) => {
-        
-    }
+        const filtered = storedJobs.filter(selected => selected.placement === option);
 
+        if(filtered) {
+            setFilteredJobs(filtered);
+            setSelectedOption(true);
+        }
+
+    }
 
 
 
@@ -43,15 +48,14 @@ const AppliedJobs = () => {
                 <div className="dropdown dropdown-top dropdown-end flex justify-end my-4">
                     <label tabIndex={0} className="btn btn-sm bg-color-gradient m-1">Filter By</label>
                     <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <li ><a onClick={()=> handleToFilter('all')}>All Jobs</a></li>
-                        <li ><a onClick={()=> handleToFilter('remote')}>Remote</a></li>
-                        <li ><a onClick={()=> handleToFilter('onsite')}>Onsite</a></li>
+                        <li ><a onClick={() => handleToFilter("Remote")}>Remote</a></li>
+                        <li ><a onClick={() => handleToFilter("Onsite")}>Onsite</a></li>
                     </ul>
                 </div>
                 <div className='flex flex-col gap-8'>
                     {
                         selectedOption ?
-                            filterData.map(singleStoredData =>
+                            filteredJobs.map(singleStoredJobs =>
                                 <SingleAppliedJobs
                                     singleStoredJobs={singleStoredJobs}
                                     key={singleStoredJobs.id}
