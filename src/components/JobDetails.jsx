@@ -25,7 +25,7 @@ const JobDetails = () => {
 
     // To set data in localStorage :--
     const handleToSetLocalStorage = (featuredJobsData) => {
-        addToDB(id);
+        addToDB(featuredJobsData.id);
         toast.success('Successfully Applied!');
 
         /* const storedAppliedJobs = getAppliedJobs();

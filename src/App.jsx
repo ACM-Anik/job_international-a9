@@ -11,7 +11,7 @@ function App() {
   const [featuredJobsData, setFeaturedJobsData] = useState([]);
 
   useEffect(() => {
-    fetch('featuredJobs.json')
+    fetch('/featuredJobs.json')
       .then(res => res.json())
       .then(data => setFeaturedJobsData(data))
   }, [])
