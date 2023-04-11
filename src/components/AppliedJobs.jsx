@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { FeaturedJobsContext } from '../App';
+import { getAppliedJobs } from './utilities/fakeDB';
 
 const AppliedJobs = () => {
     const featuredJobs = useContext(FeaturedJobsContext);
@@ -26,18 +27,34 @@ const AppliedJobs = () => {
         setStoredJobs(savedAppliedJobs);
     }, [featuredJobs])
 
-    let newStoredJobs = [];
-        const exists = storedJobs?.find(singleJob => singleJob?.id == id);
-        // console.log(exists)
-        if (!exists) { 
-            newStoredJobs = [...storedJobs, exists];
-        }
-        setStoredJobs(newStoredJobs);
+    // let newStoredJobs = [];
+    //     const exists = storedJobs?.find(singleJob => singleJob?.id == id);
+    //     // console.log(exists)
+    //     if (!exists) { 
+    //         newStoredJobs = [...storedJobs, exists];
+    //     }
+    //     setStoredJobs(newStoredJobs);
 
 
     return (
-        <div>
-            <h3>Applied Jobs</h3>
+        <div className="mb-5">
+            <h1 className='text-center text-4xl font-bold mb-10 p-10 bg-[#F4F4F4]'>
+                Applied Jobs
+            </h1>
+            <div className='container mx-auto'>
+                <div className="dropdown dropdown-top dropdown-end flex justify-end">
+                    <label tabIndex={0} className="btn btn-sm bg-color-gradient m-1">Click</label>
+                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Remote</a></li>
+                        <li><a>Onsite</a></li>
+                    </ul>
+                </div>
+                <div>
+                    {
+                        
+                    }
+                </div>
+            </div>
         </div>
     );
 };

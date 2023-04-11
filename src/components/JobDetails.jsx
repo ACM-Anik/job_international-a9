@@ -41,11 +41,11 @@ const JobDetails = () => {
                 <div className='rounded p-4 col-span-2 m-1'>
                     <div className='bg-job-details p-6 rounded'>
 
-                        <h3 className='text-xl font-bold my-3'>Job Details</h3>
+                        <h3 className='text-xl font-bold my-3 border-b-2 pb-4'>Job Details</h3>
                         <h5 className='text-xl font-medium text-[#474747] my-3'>Salary: <span className='text-base color-gray'>{salary}</span></h5>
                         <h5 className='text-xl font-medium text-[#474747] my-3'>Job Title: <span className='text-base color-gray'>{title}</span></h5>
 
-                        <h3 className='text-xl font-bold my-3'>Contract Info</h3>
+                        <h3 className='text-xl font-bold my-3 border-b-2 py-4'>Contract Info</h3>
                         <h5 className='text-xl font-medium text-[#474747] my-3'>Phone: <span className='text-base color-gray'>{contact_information?.phone}</span></h5>
                         <h5 className='text-xl font-medium text-[#474747] my-3'>Email: <span className='text-base color-gray'>{contact_information?.email}</span></h5>
                         <h5 className='text-xl font-medium text-[#474747] my-3'>Address: <span className='text-base color-gray'>{contact_information?.address}</span></h5>
