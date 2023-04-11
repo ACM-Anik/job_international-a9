@@ -3,14 +3,14 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const Statistics = () => {
     const result = [
-        { name: "assignment 1", marks: 60 },
-        { name: "assignment 2", marks: 57 },
-        { name: "assignment 3", marks: 60 },
-        { name: "assignment 4", marks: 55 },
-        { name: "assignment 5", marks: 60 },
-        { name: "assignment 6", marks: 58 },
-        { name: "assignment 7", marks: 60 },
-        { name: "assignment 8", marks: 60 }
+        { id:1, name: "assignment 1", marks: 60 },
+        { id:2, name: "assignment 2", marks: 57 },
+        { id:3, name: "assignment 3", marks: 60 },
+        { id:4, name: "assignment 4", marks: 55 },
+        { id:5, name: "assignment 5", marks: 60 },
+        { id:6, name: "assignment 6", marks: 58 },
+        { id:7, name: "assignment 7", marks: 60 },
+        { id:8, name: "assignment 8", marks: 60 }
     ];
 
     return (

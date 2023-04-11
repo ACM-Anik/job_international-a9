@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('../public/job-category.json')
+        loader: () => fetch('jobCategory.json'),
       },
       {
         path: '/statistics',
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
       },
       {
         path: '/jobDetails/:id',
@@ -39,11 +39,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/appliedJobs',
-        element: <AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>,
       },
       {
         path: '/blog',
-        element: <Blog></Blog>
+        element: <Blog></Blog>,
       },
     ]
   },
@@ -54,7 +54,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
     <Toaster
       position="top-right"
-      reverseOrder={false}
     />
   </React.StrictMode>,
 )

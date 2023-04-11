@@ -10,7 +10,7 @@ const Cover = () => {
                     <button className='btn bg-color-gradient'>Get Stated</button>
                 </div>
                 <div className=' my-6 md:my-0'>
-                    <img src="../../public/All Images/person.png" alt="" />
+                    <img src="https://i.ibb.co/JyWGxsC/person.png" alt="" />
                 </div>
             </div>
         </div>

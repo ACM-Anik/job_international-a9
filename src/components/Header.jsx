@@ -18,7 +18,7 @@ const Header = () => {
                                 <li><NavLink to="/blog">Blog</NavLink></li>
                             </ul>
                         </div>
-                        <Link to="/" className="cursor-pointer normal-case text-xl"><img src="../../public/Logo.png" alt="" /></Link>
+                        <Link to="/" className="cursor-pointer normal-case text-xl"><img src="../../public/logo.png" alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-[#757575]">
