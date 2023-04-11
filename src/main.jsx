@@ -9,7 +9,7 @@ import {
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics';
-import AppliedJobs from './components/AppliedJobs';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog';
 import JobDetails from './components/JobDetails';
 

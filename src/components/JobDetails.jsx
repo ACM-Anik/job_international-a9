@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { FeaturedJobsContext } from '../App';
 import { useParams } from 'react-router-dom';
 import { addToDB, getAppliedJobs } from './utilities/fakeDB';
+import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -22,7 +23,7 @@ const JobDetails = () => {
     // To set data in localStorage :--
     const handleToSetLocalStorage = (id) => {
         addToDB(id);
-        
+
     }
 
 
@@ -41,14 +42,29 @@ const JobDetails = () => {
                 <div className='rounded p-4 col-span-2 m-1'>
                     <div className='bg-job-details p-6 rounded'>
 
-                        <h3 className='text-xl font-bold my-3 border-b-2 pb-4'>Job Details</h3>
-                        <h5 className='text-xl font-medium text-[#474747] my-3'>Salary: <span className='text-base color-gray'>{salary}</span></h5>
-                        <h5 className='text-xl font-medium text-[#474747] my-3'>Job Title: <span className='text-base color-gray'>{title}</span></h5>
+                        <h3 className='text-xl font-bold my-2 border-b-2 pb-4'>Job Details</h3>
+                        <div className=' my-3 flex items-center gap-2'>
+                            <CurrencyDollarIcon className='w-6 h-6  text-purple-500' />
+                            <h5 className='text-xl font-medium text-[#474747]'>Salary: <span className='text-base color-gray'>{salary}</span></h5>
+                        </div>
+                        <div className=' my-3 flex items-center gap-2'>
+                            <CalendarDaysIcon className='w-6 h-6  text-purple-500' />
+                            <h5 className='text-xl font-medium text-[#474747]'>Job Title: <span className='text-base color-gray'>{title}</span></h5>
+                        </div>
 
                         <h3 className='text-xl font-bold my-3 border-b-2 py-4'>Contract Info</h3>
-                        <h5 className='text-xl font-medium text-[#474747] my-3'>Phone: <span className='text-base color-gray'>{contact_information?.phone}</span></h5>
-                        <h5 className='text-xl font-medium text-[#474747] my-3'>Email: <span className='text-base color-gray'>{contact_information?.email}</span></h5>
-                        <h5 className='text-xl font-medium text-[#474747] my-3'>Address: <span className='text-base color-gray'>{contact_information?.address}</span></h5>
+                        <div className=' my-3 flex items-center gap-2'>
+                            <PhoneIcon className='w-6 h-6  text-purple-500'  text-purple-500/>
+                            <h5 className='text-xl font-medium text-[#474747]'>Phone: <span className='text-base color-gray'>{contact_information?.phone}</span></h5>
+                        </div>
+                        <div className=' my-3 flex items-center gap-2'>
+                            <EnvelopeIcon className='w-6 h-6  text-purple-500' />
+                            <h5 className='text-xl font-medium text-[#474747]'>Email: <span className='text-base color-gray'>{contact_information?.email}</span></h5>
+                        </div>
+                        <div className=' my-3 flex items-center gap-2'>
+                            <MapPinIcon className='w-6 h-6 text-purple-500' />
+                            <h5 className='text-xl font-medium text-[#474747]'>Address: <span className='text-base color-gray'>{contact_information?.address}</span></h5>
+                        </div>
                     </div>
                     <button onClick={() => handleToSetLocalStorage(id)} className='btn bg-color-gradient w-full my-6'>Apply Now</button>
                 </div>

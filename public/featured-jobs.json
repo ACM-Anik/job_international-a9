@@ -34,7 +34,7 @@
         "contact_information": {
             "phone": "+3 (555) 123-4567",
             "email": "jane.doe5678@example.com",
-            "address": "10 Rue de la Paix, Paris, France"
+            "address": "10 Rue de la, Paris, France"
         }
     },
     {
@@ -80,7 +80,7 @@
         "company_logo": "https://i.ibb.co/dMkzMrr/brand-logos-min-jpg-1200-630-3-removebg-preview.png",
         "title": "Customer Service Representative",
         "company_name": "Panasonic & Co.",
-        "placement": "Onsite",
+        "placement": "Remote",
         "location": "Tokyo, Japan",
         "duty": "Part-time",
         "salary": "$40,000 - $50,000",
@@ -118,9 +118,9 @@
         "company_logo": "https://i.ibb.co/MPJCGnM/brand-logos-min-jpg-1200-630-1-removebg-preview.png",
         "title": "Sales Associate",
         "company_name": "Microsoft",
-        "placement": "Onsite",
+        "placement": "Remote",
         "location": "Chicago, IL",
-        "duty": "Full-time",
+        "duty": "Part-time",
         "salary": "$15 - $20 per hour",
         "job_description": "We are seeking a human resources coordinator to join our team. The ideal candidate should have experience in HR, be highly organized, and have excellent communication skills. This is a full-time position with competitive salary and benefits.",
         "job_responsibility": "Assist with recruitment and hiring processes, including posting job openings, reviewing resumes, and scheduling interviews. Coordinate employee onboarding and off boarding processes. Manage employee files and documentation. Provide support to HR team as needed.",
@@ -137,9 +137,9 @@
         "company_logo": "https://i.ibb.co/K6YcjgK/brand-logos-min-jpg-1200-630-removebg-preview.png",
         "title": "Sales Manager",
         "company_name": "Tesla",
-        "placement": "Remote",
+        "placement": "Onsite",
         "location": "United States",
-        "duty": "Part-time",
+        "duty": "Full-time",
         "salary": "$25 - $30 per hour",
         "job_description": "We are seeking a content writer to join our team. The ideal candidate should be able to write clear, concise, and engaging content across various platforms and formats. This is a part-time position with flexible hours and the opportunity for growth within the company.",
         "job_responsibility": "Write and edit content for website, blog, social media, and other platforms. Collaborate with marketing team to develop and execute content marketing strategies. Stay up-to-date with industry trends and best practices to ensure that our content is cutting-edge and effective.",

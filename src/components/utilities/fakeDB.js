@@ -9,6 +9,7 @@ const addToDB = id => {
         // const newQuantity = quantity + 1;
         // appliedJobs[id] = newQuantity;
         
+        
     }
     localStorage.setItem('applied-jobs', JSON.stringify(appliedJobs));
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({singleFeaturedJob}) => {
