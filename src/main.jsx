@@ -12,6 +12,7 @@ import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog';
 import JobDetails from './components/JobDetails';
+import { Toaster } from 'react-hot-toast'
 
 
 
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App></App>,
     errorElement: <ErrorPage></ErrorPage>,
-    children:[
+    children: [
       {
         path: '/',
         element: <Home></Home>,
@@ -51,5 +52,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Toaster/>
   </React.StrictMode>,
 )

@@ -3,12 +3,11 @@ import { FeaturedJobsContext } from '../../App';
 import { getAppliedJobs } from '../utilities/fakeDB';
 import SingleAppliedJobs from './SingleAppliedJobs';
 
+
 const AppliedJobs = () => {
     const featuredJobs = useContext(FeaturedJobsContext);
 
     const [storedJobs, setStoredJobs] = useState([]);
-    console.log(storedJobs)
-    // console.log(featuredJobs)
 
     useEffect(() => {
         const storedAppliedJobs = getAppliedJobs();
@@ -23,6 +22,7 @@ const AppliedJobs = () => {
         setStoredJobs(savedAppliedJobs);
     }, [featuredJobs]);
 
+    
 
     return (
         <div className="mb-5">
