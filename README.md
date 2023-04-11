@@ -20,7 +20,7 @@
 ## API Reference
 
 #### Local API are used here: 
-- jobCatagory.json
+- jobCategory.json
 - FeaturedJobs.json
 - AssignmentResults.json
 
